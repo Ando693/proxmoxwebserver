@@ -4,3 +4,73 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 80px;
+}
+
+.cardbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 64px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.image {
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: start;
+}
+
+.ando {
+    background-image: url('../assets/ando.jpg');
+}
+
+.baba {
+    background-image: url('../assets/baba.jpg');
+}
+
+.julio {
+    background-image: url('../assets/julio.jpg');
+}
+
+.faby {
+    background-image: url('../assets/faby.jpg');
+    background-position: bottom !important;
+}
+
+.info {
+    padding: 20px;
+}   
+
+.nom {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.im {
+    margin-top: 20px;
+}
+
+.im span {
+    font-weight: 600;
+}
